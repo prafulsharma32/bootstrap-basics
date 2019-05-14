@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap test</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <h1 class="alert alert-danger">Iron man</h1>
+   <div> <button type="button" class="btn btn-outline-primary">Marvel profile</button></div>
+    <img src="ironman.jpg" alt="ironman">
+    <div class="alert alert-warning" role="alert">
+            Here is the  <a href="#" class="alert-link-primary">twitter link</a>
+    </div>
+    <h1 class="alert-danger">Enemies:</h1>
+    <ul class="list-group">
+        <li class="list-group-item active">Mandarin,Ivan vanko/whiplash </li>
+        <li class="list-group-item">Brandt </li>
+        <li class="list-group-item">Savin </li>
+        <li class="list-group-item">Thanos </li>
+        <li class="list-group-item">Obadiah stane </li>
+        <li class="list-group-item">Ultron </li>
+
+        
+    </ul>
+    <h1>Registration form:</h1>
+    <form >
+    <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="username">
+    </div>
+    <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1">
+     </div>
+                      <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                          </div>
+                          <div class="form-group">
+                          <label for="exampleFormControlInput1">Age</label>
+                          <input type="number" class="form-control" id="exampleFormControlInput1">
+                          </div>
+      
+      <p>Who is favourite superhero?</p>
+      <div>Superman <input type="radio" class="form-control" name="superhero" value="Superman"  checked> </div>
+      <div>Batman <input type="radio" class="form-control"  name="superhero" value="Batman" > </div>
+      <div> Spiderman   <input type="radio" class="form-control"  name="superhero" value="Spiderman"> </div> 
+      <div>Iron man <input type="radio" class="form-control" name="superhero" value="Iron man" > </div>
+                                  
+                                  
+          <div>
+            <input type="submit" class="btn btn-danger col-12" value="Submit">
+            </div>  
+            <h1>Booking form:</h1>
+            <div>
+            <select name="movie" class="col-12">
+            <option  value="Avengers">Avengers</option>
+            <option  value="Avengers Infinity wars">Avengers infinity wars</option>
+            <option  value="Avengers endgame">Avengers endgame </option> 
+            </select> 
+
+                                            
+            </div>
+            <!--checkbox  -->
+            <div>Popcorn  <input type="checkbox" class="form-control" name="addon" value="Popcorn" > </div>    
+            <div>Beverages <input type="checkbox" class="form-control" name="addon" value="Beverages">
+            <div>Chips <input type="checkbox" class="form-control" name="addon" value="Chips"> </div>
+            <div><input type="submit" class="btn btn-danger col-12" value="Submit">
+                              </div>  
+                                 <!-- choose a file  -->
+            <h1>Upload Selfie:</h1>
+            <div>
+            <input type="file" name="file" value="choose file">                                     
+
+            </div>               
+    </form>
+    <!-- form check -->
+    <p>who is your favourite superhero?</p>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+      <label class="form-check-label" for="exampleRadios1">
+        Superman
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+      <label class="form-check-label" for="exampleRadios1">
+        Batman
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+      <label class="form-check-label" for="exampleRadios1">
+      Spiderman
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+      <label class="form-check-label" for="exampleRadios1">
+        Iron man
+      </label>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <h1 class="alert alert-danger text-center">Iron man</h1>
+    <div class="text-center"> <button type="button" class="btn btn-outline-primary">Marvel profile</button></div>
+     <img src="ironman.jpg" alt="ironman" class="mx-auto d-block">
+     <div class="alert alert-warning text-center" role="alert">
+      Here is the  <a href="#" class="alert-link-primary">twitter link</a>
+</div>  
+<div class="container">
+
+  <div class="row" >
+
+    <div class="col">
+        <h1 class="alert-danger">Enemies:</h1>
+<ul class="list-group">
+        <li class="list-group-item active">Mandarin,Ivan vanko/whiplash </li>
+        <li class="list-group-item list-group-item-info">Brandt </li>
+        <li class="list-group-item">Savin </li>
+        <li class="list-group-item">Thanos </li>
+        <li class="list-group-item">Obadiah stane </li>
+        <li class="list-group-item">Ultron </li>
+
+        
+    </ul>
+    </div>
+    <div class="col">
+        <h1 class="alert-danger">Top 3 iron man movies:</h1>
+        <ul class="list-group">
+                <li class="list-group-item">Iron man <span style="color:maroon"> (2008) </span> </li>
+                <li class="list-group-item">Iron man 2 <span style="color:maroon">(2010) </span> </li>
+                <li class="list-group-item">Iron man 3 <span style="color:maroon"> (2012) </span>  </li>
+                </ul>
+                </div>
+              </div> 
+             </div>
+             <div class="col-md-6 col-sm-12 offset-md-3">
+               <h1>Twitter link <img src="twitter.jpg" alt="twitter" > </h1>
+               <h2>Registration form</h2>
+             
+             <form >
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="username">
+                </div>
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1">
+                 </div>
+                                  <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                                      </div>
+                                      <div class="form-group">
+                                      <label for="exampleFormControlInput1">Age</label>
+                                      <input type="number" class="form-control" id="exampleFormControlInput1">
+                                      </div>
+                  
+                  <p>Who is favourite superhero?</p>
+                  <div>Superman <input type="radio" class="form-control" name="superhero" value="Superman"  checked> </div>
+                  <div>Batman <input type="radio" class="form-control"  name="superhero" value="Batman" > </div>
+                  <div> Spiderman   <input type="radio" class="form-control"  name="superhero" value="Spiderman"> </div> 
+                  <div>Iron man <input type="radio" class="form-control" name="superhero" value="Iron man" > </div>
+                   </form>                           
+                                              
+                      <div>
+                        <input type="submit" class="btn btn-danger col-12" value="Submit">
+                        </div>
+                      </div>  
+                        
+
+  </body>
+</html>
